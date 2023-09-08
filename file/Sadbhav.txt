@@ -1,0 +1,1 @@
+{"name":"Sadbhav","email":"eded@o","password":"sd","confirm-password":"jjjjjj","username":"1AT21CS088","dob":"2023-09-20","game":"FREE FIRE","platform":"ANDROID","location":"j3ruidmed","agree-terms":"on"}

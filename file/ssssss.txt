@@ -1,0 +1,1 @@
+{"name":"ssssss","email":"sadbhavkadvade@gmail.com","password":"s","confirm-password":"s","username":"sss","dob":"2023-09-12","game":"BGMI","platform":"IOS","location":"s","agree-terms":"on"}

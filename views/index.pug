@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Esports Club Registration Form</title>
+    style
+      include ../static/style.css
+  </head>
+  <body>
+    <h1>Esports Club Registration Form</h1>
+    <form method="post" action="/submitted">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      
+      <label for="confirm-password">Confirm Password:</label>
+      <input type="password" id="confirm-password" name="confirm-password" required>
+      
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      
+      <label for="date-of-birth">Date of Birth:</label>
+      <input type="date" id="date-of-birth" name="dob" required>
+      
+      <label for="game">Game:</label>
+      <select id="game" name="game" required>
+        <option value="">Select a game</option>
+        <option value="BGMI">BGMI</option>
+        <option value="FREE FIRE">FREE FIRE</option>
+        <option value="ROCKET LEAGUE">ROCKET LEAGUE</option>
+        <option value="VALORANT">VALORANT</option>
+      </select><br><br>
+      
+            <label for="platform">Platform:</label>
+      <select id="platform" name="platform" required>
+        <option value="">Select a platform</option>
+        <option value="PC">PC</option>
+        <option value="IOS">IOS</option>
+        <option value="ANDROID">ANDROID</option>
+      </select><br><br>
+      
+      <label for="location">Location:</label>
+      <input type="text" id="location" name="location" required><br><br>
+      
+      <label for="agree-terms">I agree to the terms and conditions:</label>
+      <input type="checkbox" id="agree-terms" name="agree-terms" required><br><br>
+      
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
